@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kourae-tools"
+version = "0.1.0"
+dependencies = [
+    "psycopg2-binary"
+]
+
+[tool.setuptools]
+packages = ["sql", "sql.builders", "sql.sql_objects", "sql.sql_operations",
+            "sql.utils", "expected_data", "cheap_render"]
