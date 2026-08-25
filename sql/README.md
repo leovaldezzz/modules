@@ -151,3 +151,5 @@ with db.transaction() as connection:
 			(False, "ada@example.com"),
 		)
 ```
+
+Espero se entienda
